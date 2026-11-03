@@ -1,0 +1,45 @@
+; Talk-To-CAD demo script - draws the demo flange inside AutoCAD
+; Use: in AutoCAD type SCRIPT, select this file.
+; Flange: OD 100, PCD 80, bore 40, 6 x hole 10, positions on PCD 80
+_.CIRCLE
+0,0
+50
+_.CIRCLE
+0,0
+20
+_.CIRCLE
+0,0
+40
+_.CIRCLE
+40,0
+5
+_.CIRCLE
+20,34.641
+5
+_.CIRCLE
+-20,34.641
+5
+_.CIRCLE
+-40,0
+5
+_.CIRCLE
+-20,-34.641
+5
+_.CIRCLE
+20,-34.641
+5
+_.LINE
+-60,0
+60,0
+
+_.LINE
+0,-60
+0,60
+
+_.TEXT
+0,-68
+4
+0
+FLANGE OD 100 PCD 80 6x HOLE 10 BORE 40 THK 12 - TALK-TO-CAD
+_.ZOOM
+_E
